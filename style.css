@@ -1,0 +1,162 @@
+* {margin: 0;
+   padding: 0; 
+}
+
+body {
+    background-image: url(./img/google-deepmind-LIlsk-UFVxk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    height: 4%;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.bar {
+    color: rgb(11, 7, 81);
+    text-decoration: none;
+  }
+
+  h1{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(47, 47, 78);
+  }
+
+  h2 {
+    padding-top: 5rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .colour {
+    color: black;}
+
+  .algo{
+    padding: 5rem;
+  }
+
+  .dentro {
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+  }
+
+   .contenedor-imagen {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px; 
+    max-height: 200px; 
+    align-items: center;
+    gap: 2rem;
+   
+  } 
+
+  .contenedor-imagen img {
+    max-width: 100%;
+    max-height: 100%;
+
+  }
+
+  .containerformulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input, textarea, select{
+    border-radius: 0.5rem;
+    height: 2rem;
+    border: none;
+  }
+
+  label {
+    font-weight: bolder;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  map {
+   display: flex;
+   justify-content: center;
+  }
+
+.container {
+    display: flex;
+    gap: 2rem;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;;
+    margin-bottom: 1rem;
+}
+
+.regresar {
+    padding-left: 5rem;
+}
+
+  /* Estilos para dispositivos móviles con un ancho máximo de 767px */
+@media (max-width: 767px) {
+    /* Estilos para móviles */
+    li {
+        font-size: small;
+    }
+    .contenedor-imagen {
+        flex-direction: column;
+        padding-top: 14rem;
+      } 
+    h1 {
+        font-size: medium;
+        color: brown;
+    }  
+
+    h2 {
+        padding-top: 20rem;
+    }
+
+    .algo {
+        padding-top: 1rem;
+        
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container img {
+        width: 300px;
+        height: 200px;
+    }
+    map {
+        width: 390px;
+    }
+
+    .videos {
+        flex-direction: column;
+        margin-top: 2rem;
+        width: 390px;
+        height: 360px;
+    }
+  
+  /* Estilos para tabletas con un ancho mínimo de 768px y un ancho máximo de 1023px */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Estilos para tabletas */
+  }}
