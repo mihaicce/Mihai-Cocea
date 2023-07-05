@@ -114,6 +114,10 @@ li {
     padding-left: 5rem;
 }
 
+#reloj {
+  padding-top: 0.4rem;
+}
+
   /* Estilos para tabletas con un ancho mínimo de 768px y un ancho máximo de 1023px */
   @media (min-width: 768px) and (max-width: 1023px) {
     /* Estilos para tabletas */
@@ -165,6 +169,10 @@ li {
         margin-top: 2rem;
         width: 390px;
         height: 360px;
+    }
+
+    #reloj {
+      padding-top: 0rem;
     }
   
 }
