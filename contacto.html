@@ -15,27 +15,28 @@
         <ul>
             <li><a class="bar" href="index.html">Home</a></li>
             <li><a class="bar" href="contacto.html">Contact</a></li>
+            <li id="reloj"></li>
         </ul>
     </nav>
-    <form action="index.html" method="get" enctype="multipart/form-data">
+    <form onsubmit="return validarFormulario()" action="index.html" method="get" enctype="multipart/form-data">
         <div class="containerformulario">
             <h1>Formulario de contacto</h1>
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required><br>
+            <input type="text" id="nombre" name="nombre"><br>
 
             <label for="nombre">Apellido:</label>
-            <input type="text" id="nombre" name="nombre" required><br>
-
-            <label for="opciones">Selecciona una Ciudad:</label>
-                <select id="opciones" name="opciones">
-                    <option value="opcion1">Bilbao</option>
-                    <option value="opcion2">Barelona</option>
-                    <option value="opcion3">Madrid</option>
-                    <option value="opcion4">Sevilla</option>
-                </select><br><br>
+            <input type="text" id="apellido" name="nombre"><br>
             
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email"  required><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="opciones">Selecciona una Ciudad:</label>
+            <select id="opciones" name="opciones">
+                <option value="opcion1">Bilbao</option>
+                <option value="opcion2">Barelona</option>
+                <option value="opcion3">Madrid</option>
+                <option value="opcion4">Sevilla</option>
+            </select><br>
             
             <input type="checkbox" id="politica" name="politica" required>
             <label for="politica">Aceptar política de confidencialidad:</label><br>
@@ -113,6 +114,8 @@
         </div>
         <!-- Copyright -->
       </footer>
-      <script src="funccionalidad.js"></script>
+      <script src="validacion.js"></script>
+      <script src="politica.js"></script>
+      <script src="reloj.js"></script>
 </body>
 </html>

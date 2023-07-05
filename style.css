@@ -30,33 +30,34 @@ li {
 .bar {
     color: rgb(11, 7, 81);
     text-decoration: none;
-  }
+}
 
-  h1{
+h1{
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
     color: rgb(47, 47, 78);
-  }
+}
 
-  h2 {
+h2 {
     padding-top: 5rem;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
+}
 
-  .colour {
-    color: black;}
+.colour {
+    color: black;
+}
 
-  .algo{
+.algo{
     padding: 5rem;
-  }
+}
 
-  .dentro {
+.dentro {
     font-weight: bolder;
     color: rgb(0, 0, 0);
-  }
+}
 
-   .contenedor-imagen {
+.contenedor-imagen {
     display: flex;
     justify-content: center;
     margin-left: auto;
@@ -65,38 +66,36 @@ li {
     max-height: 200px; 
     align-items: center;
     gap: 2rem;
-   
-  } 
+   } 
 
-  .contenedor-imagen img {
+.contenedor-imagen img {
     max-width: 100%;
     max-height: 100%;
+}
 
-  }
-
-  .containerformulario {
+.containerformulario {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
 
-  input, textarea, select{
+input, textarea, select{
     border-radius: 0.5rem;
     height: 2rem;
     border: none;
-  }
+}
 
-  label {
+label {
     font-weight: bolder;
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
+}
 
-  map {
+map {
    display: flex;
    justify-content: center;
    margin-bottom: 2rem;
-  }
+}
 
 .container {
     display: flex;
@@ -114,17 +113,28 @@ li {
     padding-left: 5rem;
 }
 
-#reloj {
-  padding-top: 0.4rem;
+.left {
+  margin-bottom: 2rem;
 }
 
-  /* Estilos para tabletas con un ancho mínimo de 768px y un ancho máximo de 1023px */
-  @media (min-width: 768px) and (max-width: 1023px) {
+.caja {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  }
+.caja img {
+      width: 40vh;
+  }
+
+
+/* Estilos para tabletas con un ancho mínimo de 768px y un ancho máximo de 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
     /* Estilos para tabletas */
-    .container {
-        flex-direction: column;
-        margin-bottom: 2rem;
-    }
+  .container {
+      flex-direction: column;
+      margin-bottom: 2rem;
+  }
 }
 
 
@@ -171,8 +181,4 @@ li {
         height: 360px;
     }
 
-    #reloj {
-      padding-top: 0rem;
-    }
-  
 }
